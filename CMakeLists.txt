@@ -15,10 +15,13 @@ SET(CMAKE_CXX_FLAGS "-std=c++11 -Wall -O3 -fPIC")
 
 SET(SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/example.cpp
+
 )
 
 add_library(example SHARED ${SOURCES})
+#add_executable(example ${SOURCES})
 target_link_libraries(example ${PYTHON_LIBRARIES})
+
 
 #libexample.so --> example.so
 SET_TARGET_PROPERTIES(example PROPERTIES PREFIX "")
