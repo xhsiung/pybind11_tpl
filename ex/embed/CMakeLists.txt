@@ -10,5 +10,6 @@ SET(SOURCES
 
 )
 
+#add_library(${PROJECT_NAME} SHARED ${SOURCES})
 add_executable( ${PROJECT_NAME} ${SOURCES})
 target_link_libraries(${PROJECT_NAME} PRIVATE pybind11::embed )

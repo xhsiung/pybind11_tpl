@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/my.dir/main.cpp.o  -o my -rdynamic -lpython3.5m 
