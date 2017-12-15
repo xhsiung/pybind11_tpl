@@ -1,0 +1,5 @@
+/home/alex/vcode/pb02/build/CMakeFiles/edit_cache.dir
+/home/alex/vcode/pb02/build/CMakeFiles/rebuild_cache.dir
+/home/alex/vcode/pb02/build/CMakeFiles/my.dir
+/home/alex/vcode/pb02/build/pybind11/CMakeFiles/edit_cache.dir
+/home/alex/vcode/pb02/build/pybind11/CMakeFiles/rebuild_cache.dir
