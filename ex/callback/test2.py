@@ -28,8 +28,4 @@ print("end")
 loop = asyncio.get_event_loop()
 loop.run_until_complete( asyncio.wait(tasks) )
 
-try:
-    loop.run_forever()
-finally:
-    loop.run_until_complete(loop.shutdown_asyncgens())
-    loop.close()
+loop.run_forever()
