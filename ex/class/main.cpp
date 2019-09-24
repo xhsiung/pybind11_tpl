@@ -25,7 +25,9 @@ public:
 };
 
 
-PYBIND11_MODULE(example, m) {
+PYBIND11_MODULE(my, m) {
+    m.def("add",&add);
+
     py::class_<Pet>(m,"Pet")
         .def(py::init<>())                 //default contruct
         .def(py::init<string,int>())       //construct
