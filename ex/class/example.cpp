@@ -8,7 +8,6 @@ int add(int i, int j) {
     return i + j;
 }
 
-//class不能用this oh my god!!
 class Pet{
 public:
     string name;
